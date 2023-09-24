@@ -1,0 +1,46 @@
+div{
+    text-align: left;
+}
+
+.picture {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.businessName {
+    font-size: large;
+    font-weight: 1000;
+    padding: 0px;
+}
+
+.categoryInfo {
+    line-height: 12px;
+    color: coral;
+    font-weight: 600;
+}
+
+.smallText {
+    font-size: small;
+    line-height: 12px;
+}
+
+.ratingInfo {
+    font-size: small;
+    font-weight: 600;
+    color: coral;
+    line-height: 12px;
+}
+
+.container {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    width: 250px;
+    height: 300px;
+}
+
+.alignRight{
+    display:grid;
+    align-items: end;
+}
