@@ -1,0 +1,48 @@
+.searchButton {
+    color: white;
+    font-size: medium;
+    font-weight: 650;
+    border: none;
+    background-color: hsl(36, 2%, 43%);
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.sortButton {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    max-width: min-content;
+    font-weight: 650;
+    color: white;
+}
+
+.sortButtonIsActive {
+    outline: auto;
+}
+
+.searchBlock {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-image: url("https://st2.depositphotos.com/1194063/8994/i/450/depositphotos_89940720-stock-photo-colorful-spices-on-wooden-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inputField {
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    width: 300px;
+}
